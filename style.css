@@ -64,7 +64,7 @@ body {
     background-color: limegreen;
     position: fixed;
     bottom: 35px;
-    margin: 0 auto;
+
 }
 
 #lives {
@@ -108,7 +108,7 @@ h2 {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -120,4 +120,17 @@ h2 {
     100% {
         bottom: 1080px;
     }
+}
+#lives-box{
+    font-size: 60px;
+    padding-left: 15px;
+    display: flex;
+}
+#header{
+    display: flex;
+}
+.score{
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
 }
